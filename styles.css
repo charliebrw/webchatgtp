@@ -1,0 +1,253 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header img{
+    width: 200px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+}
+
+#social-links {
+    margin-top: 10px;
+}
+
+#social-links a {
+    color: white;
+    margin-right: 10px;
+}
+
+/* Animación para la galería de perros */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.dog-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dog-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    /* Estilos para el formulario de adopción en dispositivos móviles */
+    #adoption-form {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #adoption-form label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+    }
+
+    #adoption-form input[type="text"],
+    #adoption-form input[type="email"],
+    #adoption-form textarea {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    #adoption-form textarea {
+        height: 100px;
+    }
+
+    #adoption-form button {
+        width: 100%;
+    }
+}
+
+/* Estilos adicionales */
+#about {
+    background-color: #f0e68c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about p {
+    color: #333;
+}
+
+#testimonials {
+    background-color: #87cefa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#testimonials .testimonial {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+#testimonials .testimonial p {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#testimonials .testimonial .author {
+    color: #777;
+    font-style: italic;
+}
+
+#contact {
+    background-color: #ffa07a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contact p {
+    color: #333;
+}
+
+/* Estilos para el formulario de adopción */
+#adoption-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#adoption-form h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#adoption-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#adoption-form input[type="text"],
+#adoption-form input[type="email"],
+#adoption-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#adoption-form textarea {
+    height: 100px;
+}
+
+#adoption-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#adoption-form button:hover {
+    background-color: #45a049;
+}
